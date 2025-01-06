@@ -1,0 +1,7 @@
+temperature_profile:
+  - altitude: 0
+    temperature: 288.15
+  - altitude: 10000
+    temperature: 223.15
+  - altitude: 20000
+    temperature: 193.15

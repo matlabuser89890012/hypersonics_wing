@@ -1,0 +1,26 @@
+name: Hypersonic Simulation Workflow
+
+on:
+  push:
+    branches:
+      - simulation
+  pull_request:
+    branches:
+      - simulation
+
+jobs:
+  run_simulation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Run Simulation
+        run: |
+          matlab -batch "run('automation/scripts/automation_script.m')"
+
+      - name: Save Outputs
+        uses: actions/upload-artifact@v2
+        with:
+          name: simulation-output
+          path: outputs/

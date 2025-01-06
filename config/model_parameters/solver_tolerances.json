@@ -1,0 +1,6 @@
+{
+    "relative_tolerance": 1e-6,
+    "absolute_tolerance": 1e-9,
+    "convergence_criteria": "residual"
+  }
+  

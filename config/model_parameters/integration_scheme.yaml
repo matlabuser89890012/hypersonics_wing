@@ -1,0 +1,4 @@
+integration:
+  scheme: "runge_kutta"
+  order: 4  # 4th order Runge-Kutta
+  stability: "stable"

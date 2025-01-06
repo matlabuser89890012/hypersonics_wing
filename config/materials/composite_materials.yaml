@@ -1,0 +1,9 @@
+composite_materials:
+  - name: "Carbon Fiber Epoxy"
+    density: 1600  # kg/m³
+    tensile_strength: 3000  # MPa
+    thermal_conductivity: 20  # W/m·K
+  - name: "Glass Fiber Epoxy"
+    density: 1800  # kg/m³
+    tensile_strength: 2000  # MPa
+    thermal_conductivity: 1.5  # W/m·K

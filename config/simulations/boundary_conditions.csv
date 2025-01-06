@@ -1,0 +1,4 @@
+boundary, type, value
+inlet, velocity, 3000     # Inlet velocity (m/s)
+outlet, pressure, 101325  # Outlet pressure (Pa)
+wall, temperature, 1500   # Wall temperature (K)

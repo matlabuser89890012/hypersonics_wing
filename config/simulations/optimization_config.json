@@ -1,0 +1,9 @@
+{
+    "method": "genetic_algorithm",
+    "max_generations": 100,
+    "population_size": 50,
+    "mutation_rate": 0.01,
+    "crossover_rate": 0.9,
+    "selection_method": "roulette_wheel"
+  }
+  

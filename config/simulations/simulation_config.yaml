@@ -1,0 +1,13 @@
+simulation:
+  time_step: 0.001          # Time step for the simulation (seconds)
+  max_iterations: 10000     # Maximum number of iterations
+  solver:
+    type: "runge_kutta"     # Solver method
+    tolerance: 1e-6         # Solver tolerance for convergence
+  flow_conditions:
+    mach_number: 5          # Mach number for hypersonic flow
+    pressure: 101325        # Atmospheric pressure (Pa)
+    temperature: 300        # Temperature (Kelvin)
+  grid:
+    resolution: "high"      # Mesh resolution level
+    refinement: "adaptive"  # Adaptive refinement during simulation

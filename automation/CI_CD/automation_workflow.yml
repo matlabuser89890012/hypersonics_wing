@@ -1,0 +1,31 @@
+name: Hypersonics Automation Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Setup MATLAB
+        uses: matlab-actions/setup-matlab@v1
+        with:
+          version: 'R2023b'
+
+      - name: Run Automation Script
+        run: |
+          matlab -batch "run('automation/scripts/automation_script.m')"
+
+      - name: Upload Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: simulation-results
+          path: outputs/

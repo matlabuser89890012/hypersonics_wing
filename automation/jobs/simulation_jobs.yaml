@@ -1,0 +1,15 @@
+jobs:
+  - name: "Run Hypersonic Simulation"
+    description: "Run simulations for hypersonic flow over the airfoil"
+    parameters:
+      - name: "mach_number"
+        value: 5
+      - name: "pressure"
+        value: 101325
+      - name: "temperature"
+        value: 300
+    schedule:
+      cron: "0 0 * * *"  # Run at midnight every day
+    notification:
+      email: true
+      webhook_url: "https://example.com/webhook"

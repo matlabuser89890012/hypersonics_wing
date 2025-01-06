@@ -1,0 +1,8 @@
+model:
+  type: "multi-disciplinary"
+  complexity_level: "high"
+  factors:
+    - "aero"
+    - "thermo"
+    - "structural"
+    - "control"

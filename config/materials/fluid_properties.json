@@ -1,0 +1,17 @@
+{
+    "air": {
+      "density": 1.225,          # kg/m³
+      "dynamic_viscosity": 1.81e-5,  # Pa·s
+      "thermal_conductivity": 0.0257, # W/m·K
+      "specific_heat": 1005,     # J/(kg·K)
+      "gas_constant": 287.05     # J/(kg·K)
+    },
+    "nitrogen": {
+      "density": 1.165,          # kg/m³
+      "dynamic_viscosity": 1.76e-5,  # Pa·s
+      "thermal_conductivity": 0.0256, # W/m·K
+      "specific_heat": 1040,     # J/(kg·K)
+      "gas_constant": 296.8      # J/(kg·K)
+    }
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "mesh_type": "structured",
+    "element_type": "tetrahedral",
+    "refinement_level": "high",
+    "boundary_layers": {
+      "enabled": true,
+      "num_layers": 5,
+      "thickness": 0.001
+    }
+  }
+  

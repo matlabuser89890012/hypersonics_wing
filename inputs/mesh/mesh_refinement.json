@@ -1,0 +1,11 @@
+{
+    "level_1": {
+      "refinement_factor": 2,
+      "region": "boundary_layer"
+    },
+    "level_2": {
+      "refinement_factor": 1.5,
+      "region": "core_flow"
+    }
+  }
+  

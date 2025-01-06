@@ -1,0 +1,12 @@
+{
+    "adaptive_controller": {
+      "gain": 1.5,
+      "time_constant": 0.05
+    },
+    "pid_controller": {
+      "proportional_gain": 1.0,
+      "integral_gain": 0.5,
+      "derivative_gain": 0.1
+    }
+  }
+  

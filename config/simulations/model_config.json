@@ -1,0 +1,17 @@
+{
+    "airfoil": {
+      "type": "NACA 2412",
+      "chord_length": 1.0,
+      "span": 5.0
+    },
+    "flow_conditions": {
+      "mach_number": 5,
+      "pressure": 101325,
+      "temperature": 300
+    },
+    "grid": {
+      "resolution": "high",
+      "refinement": "adaptive"
+    }
+  }
+  

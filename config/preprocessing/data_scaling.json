@@ -1,0 +1,8 @@
+{
+    "scaling_factor": 1.0,
+    "apply_normalization": true,
+    "method": "min_max",
+    "min_value": 0,
+    "max_value": 1
+  }
+  

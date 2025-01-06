@@ -1,0 +1,12 @@
+{
+    "initial_conditions": {
+      "velocity": 1000,           # m/s
+      "temperature": 300,         # K
+      "pressure": 101325          # Pa
+    },
+    "boundary_conditions": {
+      "inlet_velocity": 3000,     # m/s
+      "outlet_pressure": 101325   # Pa
+    }
+  }
+  
